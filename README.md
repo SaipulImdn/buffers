@@ -2,7 +2,7 @@
 
 ## Overview
 
-Buffers is a C++ application that automatically clears system buffers and caches every 2 hours. It follows a clean architecture and logs each cleaning operation to track successes and failures.
+Buffers is a C++ application that automatically clears system buffers and caches every 30 minute. It follows a clean architecture and logs each cleaning operation to track successes and failures.
 
 ## Features
 
