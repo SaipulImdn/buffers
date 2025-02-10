@@ -14,7 +14,7 @@ void runCleaner() {
         }
         
         std::cout << "Menunggu 2 jam sebelum membersihkan lagi...\n";
-        std::this_thread::sleep_for(std::chrono::hours(2));
+        std::this_thread::sleep_for(std::chrono::seconds(1800));
     }
 }
 
