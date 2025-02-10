@@ -13,7 +13,7 @@ void runCleaner() {
             std::cout << "Pembersihan gagal!\n";
         }
         
-        std::cout << "Menunggu 2 jam sebelum membersihkan lagi...\n";
+        std::cout << "Menunggu 30 menit sebelum membersihkan lagi...\n";
         std::this_thread::sleep_for(std::chrono::seconds(1800));
     }
 }
